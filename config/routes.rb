@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   # get "/login", to: "users#login_form", as: "login"
   # post "/login", to: "users#login"
   # post "/logout", to: "users#logout", as: "logout"
+
+  # If this find_user in the app controller?  @login_user?
   get "/user/current", to: "user#current", as: "current_user"
 
   resources :works
