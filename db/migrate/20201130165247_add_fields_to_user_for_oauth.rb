@@ -4,6 +4,5 @@ class AddFieldsToUserForOauth < ActiveRecord::Migration[6.0]
     add_column :users, :email, :string
     add_column :users, :provider, :string
     add_column :users, :avatar, :string
-
   end
 end
